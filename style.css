@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: #010022;
+}
+.container {
+    width: 80%;
+    min-width: 30rem;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    background: #fff;
+    border-radius: .5rem;
+}
+table {
+    width: 80%;
+    min-width: 30rem;
+    margin: 0 auto;
+    background: #d5f6ef;
+    border-spacing: 0 0;
+    border-collapse: collapse;
+}
+table th, table td {
+    border: 1px solid #cbd8d5;
+    padding: 1rem 2rem;
+}
+table td[data-selected] {
+    background: #8cc96a;
+}
+button.btn {
+    padding: 1rem 2rem;
+    border: 1px solid #000;
+    border-radius: .3rem;
+}
+div.go-up {
+    position: fixed;
+    top: calc(50% + 3.12rem);
+    right: 0;
+}
